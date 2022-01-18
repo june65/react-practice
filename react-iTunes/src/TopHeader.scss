@@ -1,46 +1,46 @@
-//TopBanner_Wrapper
-.TopBanner_Wrapper{
+//TopHeader_Wrapper
+.TopHeader_Wrapper{
     display: grid;
     grid-template-columns:  5vw 1fr 30vw 6vw;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
     padding: 5px;
 }
 
-//TopBanner_menu
-.TopBanner_menu{
+//TopHeader_menu
+.TopHeader_menu{
     padding: 1vh;
     text-align: center;
     
 }
-.TopBanner_menu_image{
+.TopHeader_menu_image{
     height:  3vw;
     width:  3vw;
     --widthA: 3vw;
     margin-top: calc(var(--widthA)/2 - 1vw);
 }
 
-//TopBanner_title
-.TopBanner_title{
+//TopHeader_title
+.TopHeader_title{
     padding: 1vh;
     font-size:3vw;
     font-weight: bold;
 }
 
-//TopBanner_search
-.TopBanner_search{
+//TopHeader_search
+.TopHeader_search{
     color: white;
     display: grid;
     grid-template-columns:  1fr 4fr 1fr;
     background-color: rgb(199, 199, 199);
-    border-radius: 0.4em;
+    border-radius: 0.2em;
     margin: 0.5em;
     margin-right: 0;
 }
-.TopBanner_search_icon{
+.TopHeader_search_icon{
     padding: 1em;
     font-size:1.5vw;
 }
-.TopBanner_search_textbox{
+.TopHeader_search_textbox{
     color: white;
     background-color: rgb(199, 199, 199);
     border: none;
@@ -55,9 +55,10 @@
     color: white;
 }
 
-//TopBanner_heart
-.TopBanner_heart{
-    padding: 1em;
-    font-size:1.5vw;
+//TopHeader_heart
+.TopHeader_heart{
+    padding: 0.6em;
+    font-size:2vw;
     margin-top: 1vw;
+    color: gray;
 }
