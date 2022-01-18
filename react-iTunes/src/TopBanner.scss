@@ -1,0 +1,63 @@
+//TopBanner_Wrapper
+.TopBanner_Wrapper{
+    display: grid;
+    grid-template-columns:  5vw 1fr 30vw 6vw;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+    padding: 5px;
+}
+
+//TopBanner_menu
+.TopBanner_menu{
+    padding: 1vh;
+    text-align: center;
+    
+}
+.TopBanner_menu_image{
+    height:  3vw;
+    width:  3vw;
+    --widthA: 3vw;
+    margin-top: calc(var(--widthA)/2 - 1vw);
+}
+
+//TopBanner_title
+.TopBanner_title{
+    padding: 1vh;
+    font-size:3vw;
+    font-weight: bold;
+}
+
+//TopBanner_search
+.TopBanner_search{
+    color: white;
+    display: grid;
+    grid-template-columns:  1fr 4fr 1fr;
+    background-color: rgb(199, 199, 199);
+    border-radius: 0.4em;
+    margin: 0.5em;
+    margin-right: 0;
+}
+.TopBanner_search_icon{
+    padding: 1em;
+    font-size:1.5vw;
+}
+.TopBanner_search_textbox{
+    color: white;
+    background-color: rgb(199, 199, 199);
+    border: none;
+    font-size:1.5vw;
+    width: 20vw;
+    height: auto;
+}
+:focus { 
+    outline: none; 
+}
+::placeholder{
+    color: white;
+}
+
+//TopBanner_heart
+.TopBanner_heart{
+    padding: 1em;
+    font-size:1.5vw;
+    margin-top: 1vw;
+}

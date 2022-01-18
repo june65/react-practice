@@ -1,23 +1,24 @@
 import React from 'react';
 import img_Menu from './image/TopBanner/menu.png';
 import {FaHeart, FaSearch} from 'react-icons/fa';
+import './TopBanner.scss';
 
 function TopBanner({ onChange, searchWord }) {
   return (
-  <div id="TopBanner_grid">
+  <div className="TopBanner_Wrapper">
 
-    <div id="menu">
-      <img src={img_Menu} />
+    <div className="TopBanner_menu">
+      <img className="TopBanner_menu_image" src={img_Menu} />
     </div>
 
-    <div id="title">iTunes-Playground</div>
+    <div className="TopBanner_title">iTunes-Playground</div>
 
-    <div id="search">
-      <FaSearch/>
-      <input type="text" placeholder="검색"  onChange={onChange} value={searchWord}/>
+    <div className="TopBanner_search">
+      <FaSearch className="TopBanner_search_icon"/>
+      <input className="TopBanner_search_textbox" type="text" placeholder="검색"  onChange={onChange} value={searchWord}/>
     </div>
 
-    <div id="heart"> 
+    <div className="TopBanner_heart"> 
       <FaHeart/>
     </div>
     
