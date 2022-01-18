@@ -1,11 +1,12 @@
 import React from 'react';
-import TopBanner from './TopBanner';
+import TopHeader from './TopHeader';
 import MiddlePart from './MiddlePart';
+import './App.scss';
 
 function App() {
   return (
     <div>
-      <TopBanner />
+      <TopHeader />
       <div>
       <MiddlePart />
       </div>
