@@ -1,5 +1,6 @@
 import React from 'react';
 import Article from './Article';
+import './Middlepart.scss';
 
 function MiddlePart() {
     const Articles = [
