@@ -10,7 +10,7 @@
 //Second_Subtitle
 .Second_Subtitle{
     text-align: center;
-    font-size:2vw;
+    font-size:1vw;
     padding: 5vh;
 }
 
@@ -18,4 +18,6 @@
 .Articles{
     padding: 5vh;
     padding-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }

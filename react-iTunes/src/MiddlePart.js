@@ -8,19 +8,19 @@ function MiddlePart() {
         id: 1,
         image:'./image/Middlepart/2577184451E8D75605.jpeg',
         name: 'velopert',
-        Contents: 'public.velopert@gmail.com'
+        Contents: 'The latest entertainment apps now come installed with macOS Catalina.'
       },
       {
         id: 2,
         image:'./image/Middlepart/20200129221450_frczspke.jpg',
         name: 'tester',
-        Contents: 'tester@example.com'
+        Contents: 'Upgrade today to get your favorite music, movies, TV shows, and podcasts. '
       },
       {
         id: 3,
         image:'./image/Middlepart/falcon-9-rocket-4k-high-definition-wallpaper-preview.jpg',
         name: 'liz',
-        Contents: 'liz@example.com'
+        Contents: 'You can join Apple Music and stream or download and play offline.'
       }
     ];
   return (
