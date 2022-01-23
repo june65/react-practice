@@ -1,12 +1,14 @@
 import React from 'react';
 
-function Article() {
+function Article({ article }) {
   return (
     <div>
-    Article
+      <span>{article.id}</span>
+      <img src={article.image}/>
+      <span>({article.Contents})</span>
+      <span>{article.name}</span>
     </div>
-
-  )
+  );
 }
 
 export default Article;

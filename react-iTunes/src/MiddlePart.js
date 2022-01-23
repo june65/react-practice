@@ -2,6 +2,26 @@ import React from 'react';
 import Article from './Article';
 
 function MiddlePart() {
+    const Articles = [
+      {
+        id: 1,
+        image:'./image/Middlepart/2577184451E8D75605.jpeg',
+        name: 'velopert',
+        Contents: 'public.velopert@gmail.com'
+      },
+      {
+        id: 2,
+        image:'./image/Middlepart/20200129221450_frczspke.jpg',
+        name: 'tester',
+        Contents: 'tester@example.com'
+      },
+      {
+        id: 3,
+        image:'./image/Middlepart/falcon-9-rocket-4k-high-definition-wallpaper-preview.jpg',
+        name: 'liz',
+        Contents: 'liz@example.com'
+      }
+    ];
   return (
 
     <div>
@@ -14,9 +34,9 @@ function MiddlePart() {
         Also you can come back to listen to the song you want. 
       </div>
       <div class="Articles">
-      <Article/>
-      <Article/>
-      <Article/>
+        {Articles.map(article => (
+          <Article article={article} key={article.id} />
+        ))}
       </div>
     </div>
 
