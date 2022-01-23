@@ -1,5 +1,4 @@
 import React from 'react';
-import img_Menu from './image/TopHeader/menu.png';
 import {FaHeart, FaSearch} from 'react-icons/fa';
 import './TopHeader.scss';
 
@@ -8,7 +7,7 @@ function TopHeader({ onChange, searchWord }) {
     <div className="TopHeader_Wrapper">
 
       <div className="TopHeader_menu">
-        <img className="TopHeader_menu_image" src={img_Menu} />
+        <img className="TopHeader_menu_image" src="./image/TopHeader/menu.png" />
       </div>
 
       <div className="TopHeader_title">iTunes-Playground</div>
